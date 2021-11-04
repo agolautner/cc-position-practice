@@ -40,3 +40,62 @@ button, input, textarea, select {
     -webkit-appearance: none !important;
     border-radius: 0
 }
+
+.level {
+    padding: 5vh;
+}
+.level1{
+    width: 90vh;
+    height: 90vh;
+    margin: 5vh auto;
+
+    background-color: #b7e4c7;
+}
+.level2 {
+    width: 80vh;
+    height: 80vh;
+
+    background-color: #95d5b2;
+}
+.level3 {
+    width: 70vh;
+    height: 70vh;
+
+    background-color: #74c69d;
+}
+.level4 {
+    width: 60vh;
+    height: 60vh;
+
+    background-color: #52b788;
+}
+.level5 {
+    width: 50vh;
+    height: 50vh;
+
+    background-color: #40916c;
+}
+.level6 {
+    width: 40vh;
+    height: 40vh;
+
+    background-color: #2d6a4f;
+}
+.level7 {
+    width: 30vh;
+    height: 30vh;
+
+    background-color: #1b4332;
+}
+.level8 {
+    width: 20vh;
+    height: 20vh;
+
+    background-color: #081c15;
+}
+.level8::before {
+    content: 'BEFORE';
+}
+.level8::after {
+    content: 'AFTER';
+}
